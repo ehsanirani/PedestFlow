@@ -73,8 +73,11 @@ with `adf` is a dataframe containing the position and velocity informations of a
    julia> using CSV
    julia> CSV.write(datadir(savename("agents", "csv")), adf)
    ```
-   
+
+
 ### Sample plots
+
 Here the population size of the simulations at different flow rates is plotted.
+
 ![Number of people versus time](plots/n_persons-time-diffphi.png)
    
