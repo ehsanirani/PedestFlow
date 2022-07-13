@@ -69,7 +69,7 @@ After defining the model, one can run the simulation by
    ```
 with `adf` is a dataframe containing the position and velocity informations of agents. One can save it by
 
-	```
+   ```
    julia> using CSV
    julia> CSV.write(datadir(savename("agents", "csv")), adf)
    ```
