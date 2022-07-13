@@ -15,6 +15,7 @@ $$
 $$
 \frac{d\boldsymbol{v}_i}{dt} = f_{tot}(t)/m
 $$
+
 with $m$ being the mass and $f_{tot}$, the total force. The total force it self is calculated by
 
 $$
