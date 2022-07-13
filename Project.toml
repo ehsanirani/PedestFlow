@@ -1,7 +1,16 @@
 name = "PedestFlow"
 authors = ["Ehsan Irani"]
-[compat]
-julia = "1.7.3"
-DrWatson = "2.9.1"
+
 [deps]
+Agents = "46ada45e-f475-11e8-01d0-f70cc89e6671"
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
+InteractiveDynamics = "ec714cd0-5f51-11eb-0b6e-452e7367ff84"
+LazySets = "b4f0291d-fe17-52bc-9479-3d1a343d9043"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[compat]
+DrWatson = "2.9.1"
+julia = "1.7.3"

@@ -1,5 +1,19 @@
 # PedestFlow
 
+## About the model
+
+This code tries to simulate a pedestrian flow in two crossing streets, as explained [here](https://gist.github.com/meiemari/b20406e05eb2aed6367361f85d552802​​​).
+
+## Equations of motion
+
+The rules of the pedestrian behaviour are encoded into the following equations of motion:
+
+$$
+\frac{dr}{dt} = \boldsymbol{v}_i(t)
+$$
+
+## Running locally
+
 This code base is using the Julia Language and [DrWatson](https://juliadynamics.github.io/DrWatson.jl/stable/)
 to make a reproducible scientific project named
 > PedestFlow
