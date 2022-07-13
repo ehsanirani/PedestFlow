@@ -11,6 +11,7 @@ The rules of the pedestrian behaviour are encoded into the following equations o
 $$
 \frac{d\boldsymbol{r}}{dt} = \boldsymbol{v}_i(t)
 $$
+
 $$
 \frac{d\boldsymbol{v}_i}{dt} = f_{tot}(t)/m
 $$
