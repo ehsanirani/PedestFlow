@@ -2,7 +2,7 @@
 
 ## About the model
 
-This code tries to simulate a pedestrian flow in two crossing streets, as explained [here](https://gist.github.com/meiemari/b20406e05eb2aed6367361f85d552802​​​).
+This code tries to simulate a pedestrian flow in two crossing streets.
 
 ## Equations of motion
 
