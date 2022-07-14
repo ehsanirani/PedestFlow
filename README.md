@@ -13,7 +13,7 @@ $$
 $$
 
 $$
-\frac{d \boldsymbol{v}_i} {dt} = f_{tot} (t)/m
+\frac{d \boldsymbol{v}_i}{dt} = f_{tot} (t) / m
 $$
 
 with $m$ being the mass and $f_{tot}$, the total force. The total force it self is calculated by
@@ -51,7 +51,7 @@ This will install all necessary packages for you to be able to run the scripts a
 everything should work out of the box, including correctly finding local paths.
 
 ### Running the code
-first include the main code by
+First include the main code by
    ```
    julia> include(srcdir("ehsan.jl"))
    ```
@@ -74,6 +74,18 @@ with `adf` is a dataframe containing the position and velocity informations of a
    ```
    julia> using CSV
    julia> CSV.write(datadir(savename("agents", "csv")), adf)
+   ```
+
+### Animation
+Using the following command one can record an animation of the simulation to `animation.mp4`:
+
+   ```
+   julia> abmvideo(
+           plotsdir("animation.mp4"), model, agent_step!, model_step!;
+           ac=ac,
+           framerate = 120, spf=6, frames = 2000,
+           title = "Pedestrian flow", static_preplot!
+       )
    ```
 
 
